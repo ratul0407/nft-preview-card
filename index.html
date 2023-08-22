@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////l9Pff8fS54ein2eOn2eL9/v684unr9vj7/f7c8PSl2eKHzNil2OLv+Prz+vue1eB3xdOq2uPm9Pf29/vy8/n3/Py13+eEyteZ097P6u/2+/zByeKOm8r8/f7u+Pq+4+qOz9uU0dzo9fjb4O5meLbh5fH0+vvV7fHx+fv8/P2Gk8Wbps+44eim2eLW2+xkdrXO1Oit3OWttthperja3u7u+Pn6+/2hrNJneLfFy+P7+/23v92IlcbN0ufx8/nj5/Kbp9BsfbltfrqAj8ORnsvg5PD+/v/v8ffQ1em0vduqtNfn6vS/61TcAAAAHHRSTlMAAAQqbK3Z8v0DN5ff+xqJ6jbC/kHBAjjp3qz8qSKHsgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChMPAx5FOtlkAAABSUlEQVQ4y4WTZ2OCMBCGc4IMEXAPjB10771t7dLuXbv3/v+/oNigIYjN+4HcJU9CcgMhVxASxLAkK4oshUUhBIgVqBEtqmNXelSLqF4EwDBjmFHMNADoejyRxD4lE/EGAZCScICkFCGc/YHrDkHOACON2yhtOABkTNxWZgYQZHPeqWKH18tlAakas6ezi3E1FQl5Fuhm3LyARD0AsIs9vSSmIrJwC9DXPzA4NEx8C0ktwMjo2PiE3YgFkokxOdUEpmdm5+YXXEBGCjEWl5bpHVZKq2tlMq+gAjHWNza9r9jarpD5QuMX1Z3dv3Fvn72T3LzkweFRfSgd+xJGn3lyeuZ8K+csYNFAXVzWrqr+bDmBoqG+vqnd3t3bDOCE2push8en55fXNzZZTLrfPz6/vn+oX083t2C4JccvWm7Z8xuH33r85v2v/X8Bp/FiyVLnL/0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMTlUMTU6MDM6MzArMDI6MDCzEaEaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE5VDE1OjAzOjMwKzAyOjAwwkwZpgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg=="
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/index-8388d1ae.css" />
+  </head>
+  <body
+    class="font-outfit bg-veryDarkBlue min-h-[100vh] flex justify-center items-center"
+  >
+    <main>
+      <div class="bg-darkBlue p-2 m-4 rounded-xl max-w-[300px] shadow-2xl">
+        <!-- man content container -->
+        <div class="relative solution overflow-hidden boro-div cursor-pointer">
+          <!-- image div -->
+          <img
+            class="p-4 rounded-3xl relative hero-image"
+            src="assets/image-equilibrium-90d2b484.jpg"
+            alt=""
+          />
+          <div class="eye-icon absolute hidden">
+            <img src="assets/icon-view-fffad88f.svg" alt="" />
+          </div>
+        </div>
+        <div class="p-4">
+          <div class="space-y-4">
+            <!-- heading and a paragraph -->
+            <h2 class="text-white text-2xl hover:text-cyan cursor-pointer">
+              Equilibrium #3429
+            </h2>
+            <p class="text-softBlue">
+              Our Equilibrium collection promotes balance and calm.
+            </p>
+          </div>
+          <div class="flex justify-between mt-4 mb-4">
+            <!-- flex-items -->
+            <div class="flex space-x-2">
+              <img
+                class="min-h-full"
+                src="assets/icon-ethereum-76974d10.svg"
+                alt=""
+              />
+              <p class="text-cyan min-w-full">0.041 ETH</p>
+            </div>
+            <div class="flex space-x-2">
+              <img
+                class="min-h-full"
+                src="assets/icon-clock-725e4636.svg"
+                alt=""
+              />
+              <p class="text-softBlue min-w-full">3 days left</p>
+            </div>
+          </div>
+          <hr class="h-0.5 border-softBlue" />
+          <div class="flex justify-start items-center space-x-4 mt-4">
+            <img
+              class="h-10 border-2 border-white rounded-full"
+              src="assets/image-avatar-48c39391.png"
+              alt=""
+            />
+            <p class="text-white cursor-pointer hover:text-cyan">
+              <span class="text-softBlue">Creation of</span> Jules Wyvern
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
